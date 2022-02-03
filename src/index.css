@@ -1,13 +1,59 @@
+*{
+  text-align: center;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.livre-list  {
+  list-style-type : none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.livre {
+   margin: 5px;
+   padding: 5px;
+}
+
+.livre img {
+ height: 200px;
+ width: 150px;
+}
+
+.livre button {
+  height: 30px;
+  width: 100px;
+}
+
+.liste {
+  margin:50px;
+  list-style:none;
+}
+
+.btnData {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.btnData:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+}
+
+.wrapper {
+  height: 500px;
+  width: 700px;
 }
